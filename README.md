@@ -24,10 +24,6 @@ The project utilizes four CSV files containing data from different brokers, each
     - **Columns**: `instrumentToken`, `instrumentName`, `name`, `lastPrice`, `expiry`, `strike`, `tickSize`, `lotSize`, `instrumentType`, `segment`, `exchange`, `isin`, `multiplier`, `exchangeToken`, `OptionType`
     - **Description**: Contains trading details from Broker 4.
 
-## Project Implementation
-
-The following code reads the CSV files, cleans up the data, and merges them based on common identifiers. It also visualizes the results for better insights.
-
 ## How to Run the Project
 Save the above code in a Python file, for example, broker_script_master.py.
 
